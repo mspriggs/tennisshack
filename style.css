@@ -29,12 +29,12 @@ h2, h3 {
   flex-basis: 30%;
   transition-property: background-color, border-radius;
   transition-duration: 2s, 1s;
-  cursor: pointer;
 }
 
 .menu-item:hover {
   background-color:orange;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 #logo {
