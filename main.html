@@ -10,7 +10,7 @@
     <div class="menu-layout">
       <div class="menu-item">Home</div>
       <div class="menu-item">Products & Services</div>
-      <div class="menu-item">Contact Us</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
     </div>
 
 
@@ -26,18 +26,19 @@
 
       <div class="sidebar-two">
         <img id="logo" src="https://mspriggs.github.io/tennisshack/tennishack.png">
-    <div>
-      <ul>
-        <li>Tennis Apparel</li>
-        <li>Tennis Gear</li>
-        <li>Lessons</li>
-      </ul>
-    </div>
+          <div>
+          <ul>
+            <li>Tennis Apparel</li>
+            <li>Tennis Gear</li>
+            <li>Lessons</li>
+          </ul>
+          </div>
       </div>
     </div>
 
+<button id="hidebutton" onclick="hideOffers()">Hide Offers</button>
 
-    <div class="call-outs-container">
+    <div id="specialoffers" class="call-outs-container">
       <div class="call-out">
         <h4>Special Offer 1</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt. Consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam placeat numquam
@@ -52,6 +53,18 @@
       </div>
 
     </div>
+    
+    <script>
+      function hideOffers() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+
+        x.style.display="none";
+        y.style.display="none";
+
+      }
+    </script>
+    
   </body>
 
   </html>
