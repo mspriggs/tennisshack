@@ -9,6 +9,19 @@ h2, h3 {
   margin: 0 0 .7em 0;
 }
 
+#map {
+        height: 400px;
+        width: 100%;
+        margin: 20px auto;
+        max-width: 1000px;
+       }
+       
+#form1 {
+  text-align: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
 .menu-layout {
   display: flex;
   margin: 0px auto;
@@ -29,6 +42,11 @@ h2, h3 {
   flex-basis: 30%;
   transition-property: background-color, border-radius;
   transition-duration: 2s, 1s;
+}
+
+.menu-item a:link,a:hover,a:visited,a:active {
+  color:white;
+  text-decoration:none;
 }
 
 .menu-item:hover {
@@ -53,7 +71,7 @@ h2, h3 {
 .main-column {
   flex: 2;
   order: 1;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .sidebar-two {
